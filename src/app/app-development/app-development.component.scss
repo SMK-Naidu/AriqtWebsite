@@ -1,0 +1,330 @@
+@import "../../styles.scss";
+//0px < xs < 576px
+@include media-breakpoint-up(xs) {
+    body {
+        font-family: $poppins;
+        font-weight: 700;
+        text-decoration: none;
+        .container {
+            background: #F5F5F5;
+        }
+        .appDevelopment {
+             .app {
+                font-size: $font-size-44;
+                font-style: Bold;
+            }
+            .development {
+                font-style: Bold;
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+        }
+        .content {
+            font: size 18px;
+            text-align: center;
+        }
+        .android {
+            text-align: center;
+        }
+         .Readmore {
+            color: #0D99FF;
+            text-align: center;
+        }
+        .button {
+            color: $purpal ;
+            text-align: center;
+        }
+        .Specilities- {
+            color: $purpal;
+            width: 75px;
+            height: 18px;
+            justify-content: center;
+            flex: none;
+            font-family: $poppins;
+            font-weight: 600;
+            font-size: 12px;
+            font-style: SemiBold;
+            line-height: 18px;
+        }
+        .OurLatestFeatures {
+            font-style: Bold;
+            font-size: 32;
+            text-align: center;
+            .our {
+                font-size: $font-size-44;
+            }
+            .latest {
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+             .features {
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+        }
+        .DidntFindYourSolutions {
+            font-style: Bold;
+            font-size: 32;
+            text-align: center;
+            .didnt {
+                font-size: $font-size-44;
+            }
+            .find {
+                font-size: $font-size-44;
+            }
+            .your {
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+            .solutions {
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+        }
+        .OurAppDevelopmentProcess {
+            font-size: 32;
+            text-align: center;
+            .our {
+                font-size: $font-size-44;
+            }
+            .app {
+                font-size: $font-size-44;
+            }
+            .development {
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+            .process {
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+        }
+        .code {
+            justify-content: space-between;
+        }
+        .margin-start {
+            margin-left: 24px;
+        }
+        .customDevelopment {
+            align-content: space-between;
+            font-weight: $font-weight-600 ;
+            font-size: $font-size-24;
+            line-height: $line-height-36;
+        }
+        .Custome {
+            justify-content: space-between;
+        }
+        .RapidApplicationDevelopment {
+            font-style: $font-style-2;
+            font-weight: $font-weight-600 ;
+            font-size: $font-size-24;
+            line-height: $line-height-36;
+        }
+        .LowCodeApplicationDevelopment {
+            font-style: $font-style-2;
+            font-weight: $font-weight-600 ;
+            font-size: $font-size-24;
+            line-height: $line-height-36;
+        }
+        .step-one {
+            width: 51px;
+            height: 21px;
+            left: 17px;
+            font-family: $poppins;
+            font-style: $font-style-2 ;
+            font-weight: $font-weight-600;
+            font-size: 14px;
+            line-height: 21px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-image: linear-gradient(45deg, #01276D, #4154F1);
+        }
+        .understandtherequirement {
+            font-family: $poppins;
+            font-style: $font-style-2 ;
+            font-weight: $font-weight-600;
+            font-size: 22px;
+            line-height: 33px;
+            text-align: center;
+        }
+        .STEP02 {
+            width: 54px;
+            height: 21px;
+            left: 17px;
+            top: 3254px;
+            font-family: $poppins;
+            font-style: normal;
+            font-weight: $font-weight-600;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(45deg, #D13FC6, #012970);
+            background-clip: text;
+        }
+         .step-two-hr {
+            background-image: linear-gradient(45deg, #D13FC6, #012970);
+        }
+        .Developtheproject {
+            font-family: $poppins;
+            font-style: $font-style-2 ;
+            font-weight: $font-weight-600;
+            font-size: 22px;
+            line-height: 33px;
+            text-align: center;
+            color: #000000;
+        }
+         .STEP03 {
+            font-family: $poppins;
+            font-style: $font-style-2;
+            font-weight: $font-weight-600;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            background: linear-gradient(90deg, #FA3E3E 1.89%, #138808 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .testingdelivering {
+            font-family: $poppins;
+            font-style: $font-style-2 ;
+            font-weight: $font-weight-600;
+            font-size: 22px;
+            line-height: 33px;
+            text-align: center;
+        }
+        .specilities {
+            font-size: 12;
+            font-weight: $font-weight-600;
+            text-align: center;
+        }
+        .WhyChoseUs {
+            text-align: center;
+            .why {
+                font-weight: $font-weight-700;
+                font-size: $font-size-44;
+                color: white;
+            }
+            .chose {
+                font-weight: $font-weight-700;
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+             .us {
+                font-weight: $font-weight-700;
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+        }
+        .card {
+            text-align: center;
+            margin-bottom: 20px;
+          }
+    .bg-img{
+    background-color:  #1B3D7C;
+     }
+        .card-body {
+            text-align: center;
+        }
+        .customerSupport {
+            margin-top: 20px;
+        }
+        .card-title {
+            // color: #FFFFFF;
+            text-align: center;
+            font-weight: 700;
+            font-size: 12px;
+        }
+        .card-text {
+            text-align: center;
+        }
+        .GetInTouch {
+            font-size: 32;
+            text-align: center;
+             .get {
+                font-size: $font-size-44;
+            }
+             .in {
+                font-size: $font-size-44;
+            }
+            .touch {
+                font-size: $font-size-44;
+                color: $purpal;
+            }
+        }
+        .bodyContent {
+            text-align: center;
+        }
+         .bgimageContainer {
+            color: #ffffff;
+            background: linear-gradient(to right,#01276D 100%, #4154F1 100%, #212A78 100%, #050C46 100%, #000E27 100%   );
+         }
+        .Understand {
+            background-image: linear-gradient(45deg, #4154F1, #0D99FF);
+}
+      .Develop {
+            background-image: linear-gradient(45deg, #D13FC6, #012970);
+        }
+        .Testing {
+            background-image: linear-gradient(45deg, #FA3E3E, #138808);
+        }
+        .btnbtn-primary {
+            text-align: center;
+        }
+        .appDevelopmentPara {
+            font-weight: 300;
+        }
+        .nextgeneration {
+            font-weight: 400;
+        }
+        .CustomTheRad {
+            font-weight: 300;
+        }
+        .Discuss {
+            font-weight: 400;
+        }
+        .Tobuild {
+            font-weight: 400;
+        }
+         .steps {
+            font-weight: 400;
+        }
+
+        .Discussyourmobileapp {
+            font-weight: 400;
+        }
+        .Lorem {
+            font-weight: 300;
+        }
+         .getStartedWithUsButton {
+            @include primaryButton;
+        }
+        .Knowmore {
+            @include primaryButton;
+        }
+         .Getstarted {
+            @include primaryButton;
+        }
+       .Develope {
+            @include primaryButton;
+        }
+}
+}
+
+//  576px < sm < 768px
+@include media-breakpoint-up(sm) {}
+
+//  768px < md < 992px
+@include media-breakpoint-up(md) {}
+
+// 992px < lg < 1200px
+@include media-breakpoint-up(lg) {}
+
+//  1200px < xl < 1400px
+@include media-breakpoint-up(xl) {}
+
+//  1400px < xxl < 2000px
+@include media-breakpoint-up(xxl) {}

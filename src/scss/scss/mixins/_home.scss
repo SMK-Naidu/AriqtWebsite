@@ -1,0 +1,42 @@
+@mixin primaryButton {
+  background-color: $skyBlue;
+  border: none;
+  border-radius: 4px;
+  color: $white;
+  padding: 12px 32px;
+}
+
+@mixin largeButton {
+  padding: 16px 60px;
+  background: $skyBlue;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: $font-weight-700;
+  font-size: $font-size-16px;
+  line-height: 24px;
+}
+
+@mixin aboutUs {
+  font-family: $poppins;
+  font-weight: $font-weight-700;
+  font-size: $font-size-24px;
+  line-height: $line-height-36;
+}
+
+@mixin textAIandReadmore {
+  font-style: normal;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-12px;
+  line-height: $line-height-18;
+}
+
+@mixin textInsideServicesBanner {
+  font-weight: $font-weight-normal;
+  font-size: $font-size-8px;
+  line-height: 18.64px;
+}
+
+@mixin signUpButton {
+  margin-top: 20px;
+  @include primaryButton;
+}

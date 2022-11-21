@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+//bootstrap
+@import "../node_modules/bootstrap/scss/mixins/breakpoints";
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+//locall
+@import "./scss/scss/mixins/home";
+@import "./scss/scss/functions";
+@import "./scss/scss/variables";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// owl carousell
+// @import '../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+// @import '../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
